@@ -20,12 +20,12 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+                className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden max-w-[1855px] mx-auto`}
             >
-				<StarsCanvas />
-				<Navbar />
+                <StarsCanvas />
+                <Navbar />
                 {children}
-				<Footer />
+                <Footer />
             </body>
         </html>
     );
