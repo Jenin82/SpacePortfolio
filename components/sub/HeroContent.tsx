@@ -18,43 +18,75 @@ const HeroContent = () => {
             className="flex flex-row items-center justify-center px-20 mt-40 w-full z-20"
         >
             <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-                <motion.div
-                    variants={slideInFromTop}
-                    className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
-                >
-                    <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
-                    <h1 className="Welcome-text text-[13px]">
-                        Fullstack Developer Portfolio
-                    </h1>
-                </motion.div>
+                <div className="flex flex-row items-center gap-5">
+                    <motion.div
+                        variants={slideInFromTop}
+                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                    >
+                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                        <h1 className="Welcome-text text-[13px]">
+                            Fullstack Developer
+                        </h1>
+                    </motion.div>
+
+                    <motion.div
+                        variants={slideInFromTop}
+                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                    >
+                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                        <h1 className="Welcome-text text-[13px]">
+                            Tech Innovator
+                        </h1>
+                    </motion.div>
+
+                    <motion.div
+                        variants={slideInFromTop}
+                        className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
+                    >
+                        <BsStars className="text-[#b49bff] mr-[10px] h-5 w-5" />
+                        <h1 className="Welcome-text text-[13px]">Team Lead</h1>
+                    </motion.div>
+                </div>
 
                 <motion.div
                     variants={slideInFromLeft(0.5)}
-                    className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
+                    className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
                 >
                     <span>
-                        Providing
+                        Coding
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                             {" "}
-                            the best{" "}
+                            Dreams{" "}
                         </span>
-                        project exprience
+                        into
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+                            {" "}
+                            Reality{" "}
+                        </span>
+                        one line at a time
                     </span>
                 </motion.div>
 
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className="text-lg text-gray-400 my-5 max-w-[600px]"
+                    className="text-md text-gray-400 my-5 max-w-[650px] text-justify"
                 >
-                    I&apos;m a Full Stack Software Engineer with experience in
-                    Website, Mobile, and Software development. Check out my
-                    projects and skills.
+                    I'm a passionate Full Stack Developer skilled in React,
+                    TypeScript, Django, REST, HTML, and CSS, committed to
+                    creating seamless, user-centric web applications. With
+                    diverse roles ranging from MuLearn Intern to CEO at SNGIST
+                    IEDC, I lead digital transformation and innovation
+                    initiatives. As a team lead and CEO, I inspire teams and
+                    drive entrepreneurial spirit, fostering a culture of
+                    creativity and excellence.
                 </motion.p>
                 <motion.a
                     variants={slideInFromLeft(1)}
-                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+                    className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] z-40"
                 >
-                    Learn More!
+                    <button>
+                        <a href="#about-me">Learn More!</a>
+                    </button>
                 </motion.a>
             </div>
 
