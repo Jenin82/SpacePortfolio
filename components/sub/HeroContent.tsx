@@ -15,10 +15,10 @@ const HeroContent = () => {
         <motion.div
             initial="hidden"
             animate="visible"
-            className="flex flex-row items-center justify-center px-20 mt-40 w-full z-20"
+            className="flex md:flex-row flex-col-reverse items-center justify-center gap-10 md:gap-0 md:px-20 px-5 mt-40 w-full z-20"
         >
-            <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
-                <div className="flex flex-row items-center gap-5">
+            <div className="h-full w-full md:w-3/6 flex flex-col gap-5 justify-center text-start">
+                <div className="hidden md:flex flex-row items-center md:gap-5 gap-1">
                     <motion.div
                         variants={slideInFromTop}
                         className="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]"
@@ -50,7 +50,7 @@ const HeroContent = () => {
 
                 <motion.div
                     variants={slideInFromLeft(0.5)}
-                    className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
+                    className="flex flex-col gap-6 mt-6 md:text-5xl text-4xl font-bold text-white max-w-[600px] w-auto h-auto z-20"
                 >
                     <span>
                         Coding
@@ -69,7 +69,7 @@ const HeroContent = () => {
 
                 <motion.p
                     variants={slideInFromLeft(0.8)}
-                    className="text-md text-gray-400 my-5 max-w-[650px] text-justify"
+                    className="text-md text-gray-400 my-5 max-w-[650px] text-justify z-30"
                 >
                     I'm a passionate Full Stack Developer skilled in React,
                     TypeScript, Django, REST, HTML, and CSS, committed to
@@ -92,7 +92,7 @@ const HeroContent = () => {
 
             <motion.div
                 variants={slideInFromRight(0.8)}
-                className="w-full h-full flex justify-center items-center z-40"
+                className="w-full md:w-3/6 h-full flex justify-center items-center z-40"
             >
                 <Image
                     src="/mainIconsdark.svg"
