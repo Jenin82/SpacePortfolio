@@ -71,7 +71,7 @@ const HeroContent = () => {
                     variants={slideInFromLeft(0.8)}
                     className="text-md text-gray-400 my-5 max-w-[650px] text-justify z-30"
                 >
-                    I'm a passionate Full Stack Developer skilled in React,
+                    I&apos;m a passionate Full Stack Developer skilled in React,
                     TypeScript, Django, REST, HTML, and CSS, committed to
                     creating seamless, user-centric web applications. With
                     diverse roles ranging from MuLearn Intern to CEO at SNGIST

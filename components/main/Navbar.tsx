@@ -15,7 +15,7 @@ const Navbar = () => {
                         alt="logo"
                         width={50}
                         height={50}
-                        className="cursor-pointer hover:animate-slowspin w-10"
+                        className="cursor-pointer hover:animate-slowspin	 w-10"
                     />
 
                     <span className="font-bold ml-[10px] block text-gray-300 z-50 md:text-lg text-xl">
@@ -41,6 +41,7 @@ const Navbar = () => {
                     {Socials.map((social) => (
                         <a
                             href={social.link}
+							key={social.name}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
