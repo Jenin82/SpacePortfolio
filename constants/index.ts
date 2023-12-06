@@ -81,16 +81,19 @@ export const Skill_data = [
 
 export const Socials = [
     {
-        name: "Discord",
-        src: "/instagram.svg",
+        name: "Linkedin",
+        src: "/linkedin.svg",
+        link: "https://www.linkedin.com/in/jenin-joseph/",
     },
     {
-        name: "Facebook",
-        src: "/facebook.svg",
+        name: "Github",
+        src: "/github.svg",
+        link: "https://github.com/Jenin82",
     },
     {
-        name: "Instagram",
-        src: "/discord.svg",
+        name: "MuLearn",
+        src: "/mulearn.svg",
+        link: "https://app.mulearn.org/profile/jeninjoseph@mulearn",
     },
 ];
 
