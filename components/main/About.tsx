@@ -41,12 +41,13 @@ const About = () => {
                         React, TypeScript, Django, REST, HTML, and CSS, I excel
                         in crafting seamless digital experiences. My journey
                         includes roles as a MuLearn Intern, Union Chairman at
-                        SNGIST, and CEO at SNGIST IEDC, where I've driven
+                        SNGIST, and CEO at SNGIST IEDC, where I&apos;ve driven
                         innovation and led digital transformations. As a leader,
-                        I've empowered teams towards excellence and fostered an
-                        entrepreneurial spirit. I'm keen to connect with
-                        like-minded tech enthusiasts and visionaries to explore
-                        new opportunities and push the boundaries of innovation.
+                        I&apos;ve empowered teams towards excellence and
+                        fostered an entrepreneurial spirit. I&apos;m keen to
+                        connect with like-minded tech enthusiasts and
+                        visionaries to explore new opportunities and push the
+                        boundaries of innovation.
                     </h1>
                 </div>
             </div>
