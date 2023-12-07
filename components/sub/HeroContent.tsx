@@ -67,21 +67,17 @@ const HeroContent = () => {
                     </span>
                 </motion.div>
 
-                <motion.p
+                <motion.div
                     variants={slideInFromLeft(0.8)}
-                    className="text-md text-gray-400 my-5 max-w-[650px] text-justify z-30"
+                    className="text-sm md:text-md text-gray-400 my-5 max-w-[650px] z-30"
                 >
-                    I&apos;m a passionate Full Stack Developer skilled in React,
-                    TypeScript, Django, REST, HTML, and CSS, committed to
-                    creating seamless, user-centric web applications. With
-                    diverse roles ranging from MuLearn Intern to CEO at SNGIST
-                    IEDC, I lead digital transformation and innovation
-                    initiatives. As a team lead and CEO, I inspire teams and
-                    drive entrepreneurial spirit, fostering a culture of
-                    creativity and excellence.
-                </motion.p>
+                    <li>Finalist in the Top 100 Coders Challenge</li>
+                    <li>Ranked within the Top 9,000 on HackerRank</li>
+                    <li>Participated and Completed Hacktoberfest 2023</li>
+                    <li>Served as a Mentor in Multiple Hackathons.</li>
+                </motion.div>
                 <motion.a
-					href="#about"
+                    href="#about"
                     variants={slideInFromLeft(1)}
                     className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] z-40"
                 >
