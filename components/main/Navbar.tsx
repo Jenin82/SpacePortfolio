@@ -7,7 +7,7 @@ const Navbar = () => {
         <div className="w-screen md:w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10 m-0 max-w-[1855px] items-center rounded-full">
             <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[0px] md:px-[10px]">
                 <a
-                    href="/"
+                    href="#home"
                     className="h-auto w-auto flex flex-row items-center"
                 >
                     <Image
@@ -15,7 +15,7 @@ const Navbar = () => {
                         alt="logo"
                         width={50}
                         height={50}
-                        className="cursor-pointer hover:animate-slowspin w-10"
+                        className="cursor-pointer hover:animate-spin w-10"
                     />
 
                     <span className="font-bold ml-[10px] block text-gray-300 z-50 md:text-lg text-xl">
@@ -41,7 +41,7 @@ const Navbar = () => {
                     {Socials.map((social) => (
                         <a
                             href={social.link}
-							key={social.name}
+                            key={social.name}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -51,6 +51,7 @@ const Navbar = () => {
                                 key={social.name}
                                 width={24}
                                 height={24}
+								className="cursor-pointer hover:animate-spin"
                             />
                         </a>
                     ))}

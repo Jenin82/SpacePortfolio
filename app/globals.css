@@ -64,3 +64,24 @@
 html {
     scroll-behavior: smooth;
 }
+
+/* This styles the scrollbar track (the part the thumb slides along) */
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* This styles the scrollbar thumb (the draggable element) */
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px;
+}
+
+/* Changes the thumb color on hover or when being clicked */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+}
+
+/* This styles the scrollbar itself (width, height) */
+::-webkit-scrollbar {
+    width: 10px;
+}
