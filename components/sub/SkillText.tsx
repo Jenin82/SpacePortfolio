@@ -10,7 +10,7 @@ import { InView } from "react-intersection-observer";
 
 const SkillText = () => {
     return (
-        <div className="w-full h-auto flex flex-col items-center justify-center">
+        <div className="w-full h-auto pt-20 flex flex-col items-center justify-center">
             <InView triggerOnce={false}>
                 {({ inView, ref }) => (
                     <motion.div

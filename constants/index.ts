@@ -163,6 +163,12 @@ export const Backend_skill = [
         height: 45,
     },
     {
+        skill_name: "Supabase",
+        Image: "/supabase.svg",
+        width: 40,
+        height: 40,
+    },
+    {
         skill_name: "Fire base",
         Image: "/Firebase.png",
         width: 35,
@@ -170,39 +176,68 @@ export const Backend_skill = [
     },
 ];
 
-export const Full_stack = [
+export const DevTools = [
     {
-        skill_name: "React Native",
-        Image: "/ReactNative .png",
-        width: 70,
-        height: 70,
+        skill_name: "GitHub",
+        Image: "/gitwhite.png",
+        width: 50,
+        height: 50,
     },
     {
-        skill_name: "Tauri",
-        Image: "/tauri.svg",
-        width: 70,
-        height: 70,
+        skill_name: "Vercel",
+        Image: "/vercel.svg",
+        width: 50,
+        height: 50,
     },
-    {
-        skill_name: "Docker",
-        Image: "/docker.webp",
-        width: 70,
-        height: 70,
-    },
-
     {
         skill_name: "Figma",
         Image: "/figma.png",
+        width: 40,
+        height: 40,
+    },
+    {
+        skill_name: "Railway",
+        Image: "/railway.svg",
+        width: 50,
+        height: 50,
+    },
+    {
+        skill_name: "VS Code",
+        Image: "/vs.svg",
+        width: 50,
+        height: 50,
+    },
+    {
+        skill_name: "ChatGPT",
+        Image: "/chatgpt.svg",
         width: 50,
         height: 50,
     },
 ];
 
-export const Other_skill = [
+export const libraries = [
     {
-        skill_name: "Go",
-        Image: "/go.png",
+        skill_name: "Framer Motion",
+        Image: "/framer.png",
+        width: 50,
+        height: 50,
+    },
+    {
+        skill_name: "React Icon",
+        Image: "/icons.svg",
         width: 60,
         height: 60,
+    },
+    {
+        skill_name: "JWT",
+        Image: "/jwt.svg",
+        width: 60,
+        height: 60,
+    },
+    {
+        skill_name: "ThreeJs",
+        Image: "/threejs.png",
+        width: 50,
+        height: 50,
     },
 ];
